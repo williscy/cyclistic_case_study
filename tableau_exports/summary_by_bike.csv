@@ -1,0 +1,5 @@
+"member_casual","rideable_type","total_rides","avg_ride_mins"
+"casual","classic_bike","667993","29.26"
+"casual","electric_bike","1247813","14.90"
+"member","classic_bike","1274451","13.62"
+"member","electric_bike","2209751","11.35"
