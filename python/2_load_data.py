@@ -25,7 +25,7 @@ def load_all_files():
         total_rows += len(df)
         print(f" Done - {len(df):,} rows (total so far: {total_rows:,})")
 
-    print(f"\n All files loaded. Total rows insertedL {total_rows:,}")
+    print(f"\n All files loaded. Total rows inserted:{total_rows:,}")
 
     with engine.connect() as conn:
         result = conn.execute(text("SELECT COUNT(*) FROM trips")).fetchone()
